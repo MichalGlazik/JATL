@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.glazik.michal.jatl.jatl">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:noHistory="true"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activities.NoteDetailsActivity"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activities.NoteListActivity"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activities.AddNoteActivity"
+            android:label="@string/app_name"></activity>
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <receiver android:name="com.glazik.michal.jatl.jatl.MyNotificationPublisher" android:enabled="true"/>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+
+</manifest>

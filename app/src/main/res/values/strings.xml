@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JATL</string>
+    <string name="note_title_label">Title</string>
+    <string name="note_body_label">Text</string>
+    <string name="back_to_the_top">Back to the top</string>
+    <string name="save_note_label">Save note</string>
+    <string name="action_settings">Settings</string>
+</resources>

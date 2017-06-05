@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/note_image"
+        android:layout_alignParentLeft="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#000000"
+        />
+
+
+        />
+
+    <TextView
+        android:id="@+id/note_title"
+        style="@style/PrimaryText"
+        android:layout_toRightOf="@+id/note_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/note_body"
+        style="@style/SecondaryText"
+        android:layout_toRightOf="@+id/note_image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/note_title"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:layout_height="40dp"/>
+
+</RelativeLayout>

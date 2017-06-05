@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774430079723",
+    "firebase_url": "https://jatl-a172e.firebaseio.com",
+    "project_id": "jatl-a172e",
+    "storage_bucket": "jatl-a172e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774430079723:android:002d966bd1f3d82a",
+        "android_client_info": {
+          "package_name": "com.glazik.michal.jatl.jatl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774430079723-r54sm46peoflu6ibc2b8slsi167mtsp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glazik.michal.jatl.jatl",
+            "certificate_hash": "bfa480969d6508dbfa266d42672847b20b4eefdc"
+          }
+        },
+        {
+          "client_id": "774430079723-rmkmb0kg5dku443incce99b6t87ik4sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYfTfh4DgNr5G9vEHoDgWN1Lu3vjq0Uw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774430079723-rmkmb0kg5dku443incce99b6t87ik4sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
